@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DimaHohol/HTML_CSS_HOMEWORKS_group15"
+  },
   "author": "Dmytro terokhin Group15",
   "license": "ISC",
   "devDependencies": {
