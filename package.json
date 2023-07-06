@@ -1,0 +1,20 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "DANIT-homework-project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Dmytro terokhin Group15",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "eslint": "^8.44.0",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "moment": "^2.29.4"
+  }
+}
