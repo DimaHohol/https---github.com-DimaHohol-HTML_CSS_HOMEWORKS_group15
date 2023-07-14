@@ -4,7 +4,7 @@
   "description": "DANIT-homework-project",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "browser-sync start --server --files '**/*' --directory"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,15 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "eslint": "^8.44.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-js-minify": "^0.0.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
